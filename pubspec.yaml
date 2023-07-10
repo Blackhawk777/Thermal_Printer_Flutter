@@ -30,29 +30,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  auto_size_text: 3.0.0
-  cached_network_image: 3.2.1
-  flutter_animate: 1.0.0
-  flutter_cache_manager: 3.3.0
-  font_awesome_flutter: 10.1.0
-  from_css_color: 2.0.0
-  google_fonts: 3.0.1
-  intl: 0.17.0
-  json_path: 0.4.1
-  page_transition: 2.0.4
-  provider: 6.0.4
-  shared_preferences: 2.0.15
-  sqflite: 2.2.0+2
-  timeago: 3.2.2
-  url_launcher: 6.1.5 
   bluetooth_thermal_printer: ^0.0.6
-  image: ^3.0.2
   esc_pos_utils: ^1.1.0    
-
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
+  print_bluetooth_thermal: ^1.0.9
+  esc_pos_utils_plus: ^2.0.1+6
+  image: ^3.3.0
 
 dev_dependencies:
   flutter_test:
@@ -77,8 +59,7 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  assets:
-    - lib/data/menu_opts.json
+  # assets:
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
